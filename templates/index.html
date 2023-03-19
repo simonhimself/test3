@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Startup Summary</title>
+</head>
+<body>
+    <h1>Startup Summary</h1>
+    <form action="{{ url_for('summary') }}" method="post">
+        <label for="url">Enter the URL of the startup:</label>
+        <input type="text" id="url" name="url"><br><br>
+        <input type="submit" value="Generate Summary">
+    </form>
+</body>
+</html>
